@@ -8,7 +8,7 @@
     "server": "cd server && node server.js",
     "dev:client": "vite",
     "dev:server": "nodemon server/server.js",
-    "build": "vite build",
+    "build": "vite build && copy dist\\index.html dist\\404.html",
     "lint": "eslint .",
     "preview": "vite preview"
   },
