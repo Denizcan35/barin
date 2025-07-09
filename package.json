@@ -10,7 +10,8 @@
     "dev:server": "nodemon server/server.js",
     "build": "vite build && copy dist\\index.html dist\\404.html",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
